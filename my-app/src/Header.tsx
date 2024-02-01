@@ -23,6 +23,7 @@ const Header: React.FC = () => {
     <Stickynode top={0} innerZ={999}>
       <HeaderWrapper>
         <HeaderTitle>Your Header Content</HeaderTitle>
+        <HeaderTitle>Your Header Content</HeaderTitle>
       </HeaderWrapper>
     </Stickynode>
   );
