@@ -6,7 +6,7 @@ import logo from "./logo.svg";
 
 // Define styles for your header using styled-components
 const HeaderWrapper = styled.div`
-  background-color: pink;
+  background-color: rgba(173, 216, 230, 0.5);
   color: black;
   padding: 10px 20px;
   position: relative;
