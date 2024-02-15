@@ -23,8 +23,10 @@ const ScrollContainer = styled.div`
 `;
 
 // Styled component for each category item
-const CategoryItem = styled.div`
+const CategoryItem = styled.button`
   flex: 0 0 auto; // Prevents items from stretching
+  border: none;
+  background: transparent;
   width: 200px; // Fixed width for each category item
   text-align: center;
 `;
@@ -69,37 +71,37 @@ const categories = [
   },
   {
     id: 7,
-    name: "Category 1",
+    name: "Category 7",
     imageUrl:
       "https://i.pinimg.com/originals/cf/db/fd/cfdbfdb3e265745f91d651ace516dce0.gif",
   },
   {
     id: 8,
-    name: "Category 2",
+    name: "Category 8",
     imageUrl:
       "https://gifdb.com/images/high/spongebob-kiss-my-sponge-jj8sfknlmk53cazv.gif",
   },
   {
     id: 9,
-    name: "Category 3",
+    name: "Category 9",
     imageUrl:
       "https://i.pinimg.com/originals/cf/db/fd/cfdbfdb3e265745f91d651ace516dce0.gif",
   },
   {
     id: 10,
-    name: "Category 4",
+    name: "Category 10",
     imageUrl:
       "https://gifdb.com/images/high/spongebob-kiss-my-sponge-jj8sfknlmk53cazv.gif",
   },
   {
     id: 11,
-    name: "Category 5",
+    name: "Category 11",
     imageUrl:
       "https://i.pinimg.com/originals/cf/db/fd/cfdbfdb3e265745f91d651ace516dce0.gif",
   },
   {
     id: 12,
-    name: "Category 6",
+    name: "Category 12",
     imageUrl:
       "https://gifdb.com/images/high/spongebob-kiss-my-sponge-jj8sfknlmk53cazv.gif",
   },
