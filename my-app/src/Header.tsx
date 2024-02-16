@@ -2,7 +2,6 @@
 import React from "react";
 import Stickynode from "react-stickynode";
 import styled from "styled-components";
-import logo from "./logo.svg";
 
 // Define styles for your header using styled-components
 const HeaderWrapper = styled.div`
@@ -16,12 +15,6 @@ const HeaderWrapper = styled.div`
   z-index: 999; /* Ensures header is above other content */
 `;
 
-// const LineButtons = styled.div`
-//   font-size: 2px
-//   display: flex;
-//   flex-direction: row;
-// `;
-
 const HeaderTitle = styled.div`
   font-size: 20px
   margin-left: 20px; /* Adjust the spacing as per your requirement */
@@ -29,12 +22,6 @@ const HeaderTitle = styled.div`
 const Buttons = styled.button`
   font-size: 20px;
 `;
-
-// const PositionHeader = styled(HeaderTitle)`
-//   position: relative;
-//   bottom: 0; // Aligns the button to the bottom of the header
-//   // Adds some spacing from the right, adjust as needed
-// `;
 
 const StyledImage = styled.img`
   max-width: 300px; /* Adjust dimensions as needed */
