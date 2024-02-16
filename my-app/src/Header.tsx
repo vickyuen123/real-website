@@ -15,12 +15,6 @@ const HeaderWrapper = styled.div`
   z-index: 999; /* Ensures header is above other content */
 `;
 
-// const LineButtons = styled.div`
-//   font-size: 2px
-//   display: flex;
-//   flex-direction: row;
-// `;
-
 const HeaderTitle = styled.div`
   font-size: 20px
   margin-left: 20px; /* Adjust the spacing as per your requirement */
