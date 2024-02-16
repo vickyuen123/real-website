@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./Header";
 import Body from "./Body";
 import Catagory from "./Catagory";
+import Footer from "./Footer";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <Header />
       <Body />
       <Catagory />
+      <Footer />
 
       {/* Other content of your application */}
     </div>
