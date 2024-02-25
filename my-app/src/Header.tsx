@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 // Define styles for your header using styled-components
 const HeaderWrapper = styled.div`
-  background-color: rgba(173, 216, 230, 0.5);
+  background-color: rgba(255, 105, 180, 0.5);
   color: black;
   padding: 10px 20px;
   position: relative;
@@ -16,7 +16,8 @@ const HeaderWrapper = styled.div`
 `;
 
 const HeaderTitle = styled.div`
-  font-size: 20px
+  padding: 20px 12px;
+  font-size: 20px;
   margin-left: 20px; /* Adjust the spacing as per your requirement */
 `;
 const Buttons = styled.button`
@@ -24,8 +25,8 @@ const Buttons = styled.button`
 `;
 
 const StyledImage = styled.img`
-  max-width: 300px; /* Adjust dimensions as needed */
-  max-height: 30px; /* Adjust dimensions as needed */
+  max-width: 300px;
+  max-height: 80px;
 `;
 
 const ButtonList = styled.div`
@@ -46,7 +47,7 @@ const Header: React.FC = () => {
     <Stickynode top={0} innerZ={999}>
       <HeaderWrapper>
         <StyledImage
-          src="https://media2.giphy.com/media/tm0GlA0gw3wvm/giphy.gif?cid=6c09b95208ctw25sv5xfped9zm8pcqbybb41ma8hvocrhzmc&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+          src="https://as1.ftcdn.net/v2/jpg/02/04/66/02/1000_F_204660283_onveez8hTPfZlIDb9v67AUQA7kwGVX79.jpg"
           // https://media1.giphy.com/media/lKXEBR8m1jWso/giphy.gif?cid=6c09b9529cwaatwct7oisypjt8fcrpy30tp45xeiuo3ke7kv&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g
           alt="Funny Spongebob GIF"
         />

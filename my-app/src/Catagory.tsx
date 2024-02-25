@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 // Styled component for the scrollable container
 const ScrollContainer = styled.div`
+  background-color: rgba(0, 0, 0, 1);
   display: flex;
   overflow-x: auto;
   gap: 20px;
@@ -36,38 +37,36 @@ const categories = [
   {
     id: 1,
     name: "Category 1",
-    imageUrl:
-      "https://i.pinimg.com/originals/cf/db/fd/cfdbfdb3e265745f91d651ace516dce0.gif",
+    imageUrl: "https://www.adameve.com/cms/image/676043-775633-1800x1800.jpg",
   },
   {
     id: 2,
     name: "Category 2",
     imageUrl:
-      "https://gifdb.com/images/high/spongebob-kiss-my-sponge-jj8sfknlmk53cazv.gif",
+      "https://www.fleshlight.com/cdn/shop/products/Textures_Classic-Variant-Lady-Original.png?v=1687884406&width=1946",
   },
   {
     id: 3,
     name: "Category 3",
-    imageUrl:
-      "https://i.pinimg.com/originals/cf/db/fd/cfdbfdb3e265745f91d651ace516dce0.gif",
+    imageUrl: "https://d1o1wlqwda3y1b.cloudfront.net/MC/WTC423_1.jpg",
   },
   {
     id: 4,
     name: "Category 4",
     imageUrl:
-      "https://gifdb.com/images/high/spongebob-kiss-my-sponge-jj8sfknlmk53cazv.gif",
+      "https://www.viva-awa.com/image/cache/catalog/bt_product/3d-silicone-best-male-masturbator-half-body-masturbator-small-500x500.jpg",
   },
   {
     id: 5,
     name: "Category 5",
     imageUrl:
-      "https://i.pinimg.com/originals/cf/db/fd/cfdbfdb3e265745f91d651ace516dce0.gif",
+      "https://www.romp.toys/media/catalog/product/cache/35ddb396b26c34e27c9586d79f1518a3/r/o/romp_jazz_pdp_gallery_1000x1000_01.jpg?format=pjpg",
   },
   {
     id: 6,
     name: "Category 6",
     imageUrl:
-      "https://gifdb.com/images/high/spongebob-kiss-my-sponge-jj8sfknlmk53cazv.gif",
+      "https://rukminim2.flixcart.com/image/850/1000/xif0q/condom/k/d/l/-original-imagpx68hjymtqqq.jpeg?q=90&crop=false",
   },
   {
     id: 7,
