@@ -2,6 +2,7 @@
 import React from "react";
 import Stickynode from "react-stickynode";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 // Define styles for your header using styled-components
 const HeaderWrapper = styled.div`
@@ -43,6 +44,11 @@ const BottomRightText = styled.div`
   /* Additional styles for your text (color, font, etc.) */
 `;
 const Header: React.FC = () => {
+  let navigate = useNavigate();
+  const GoAbout = () => {
+    navigate("/About"); // Replace '/target-page' with your target path
+  };
+
   return (
     <Stickynode top={0} innerZ={999}>
       <HeaderWrapper>
@@ -54,8 +60,8 @@ const Header: React.FC = () => {
         <HeaderTitle>the company name </HeaderTitle>
         <BottomRightText>
           <ButtonList>
-            <Buttons>about </Buttons>
-            <Buttons>hello</Buttons>
+            <Buttons onClick={GoAbout}>about </Buttons>
+            <Buttons>Home</Buttons>
           </ButtonList>
         </BottomRightText>
       </HeaderWrapper>
