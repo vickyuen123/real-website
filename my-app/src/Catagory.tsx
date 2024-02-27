@@ -149,6 +149,7 @@ const Catagory = () => {
       onMouseUp={stopDragging}
       onMouseMove={onDrag}
     >
+      {/* add a auto scroll */}
       {categories.map((category) => (
         <CategoryItem key={category.id}>
           <img

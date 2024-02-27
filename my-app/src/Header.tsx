@@ -48,6 +48,9 @@ const Header: React.FC = () => {
   const GoAbout = () => {
     navigate("/About"); // Replace '/target-page' with your target path
   };
+  const GoHome = () => {
+    navigate("/"); // Replace '/target-page' with your target path
+  };
 
   return (
     <Stickynode top={0} innerZ={999}>
@@ -61,7 +64,7 @@ const Header: React.FC = () => {
         <BottomRightText>
           <ButtonList>
             <Buttons onClick={GoAbout}>about </Buttons>
-            <Buttons>Home</Buttons>
+            <Buttons onClick={GoHome}>Home</Buttons>
           </ButtonList>
         </BottomRightText>
       </HeaderWrapper>

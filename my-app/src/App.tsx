@@ -6,17 +6,16 @@ import Header from "./Header";
 import Body from "./Body";
 import Catagory from "./Catagory";
 import Footer from "./Footer";
+import Home from "./Home";
+import About from "./About";
+import { Route, Routes } from "react-router-dom";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <Header />
-      <Body />
-      <Catagory />
-      <Footer />
-
-      {/* Other content of your application */}
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/About" element={<About />} />
+    </Routes>
   );
 };
 export default App;
